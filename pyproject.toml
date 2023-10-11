@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hackdecomp"
+version = "0.1.0"
+authors = [
+  { name="Alessandro Salerno" },
+]
+description = "Disassembler for VM-O-MATIC Bytecode"
+license = { file="LICENSE" }
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Alessandro-Salerno/Hackdecomp"
+"Bug Tracker" = "https://github.com/Alessandro-Salerno/Hackdecomp/issues"
